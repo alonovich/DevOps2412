@@ -1,3 +1,4 @@
+properties([pipelineTriggers([pollSCM('* * * * *')])])
 node {
     stage("clone") {
         git branch: 'main', url: 'https://github.com/avielb/DevOps24121.git'
