@@ -1,7 +1,7 @@
 properties([pipelineTriggers([pollSCM('* * * * *')])])
 node {
     stage("clone") {
-        git branch: 'main', url: 'https://github.com/avielb/DevOps24121.git'
+        git branch: 'master', url: 'https://github.com/alonovich/DevOps2412.git'
     }
     stage("show files"){
         sh "ls -l"
