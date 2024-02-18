@@ -39,5 +39,7 @@ y = 2.36
 print(x+int(y))
 
 Z = 334
+x = 5
+print("Hi git")
 
 
