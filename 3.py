@@ -14,7 +14,7 @@ print(name2)
 
 
 
-a = 8
+a = 16
 a = 17
 a = 9
 b = 6
@@ -27,7 +27,7 @@ print("b is: ", b)
 print("c is: ", c)
 
 my_num = 5+5
-print("result is: ", my_num)
+print("result is the: ", my_num)
 
 
 a = 8
@@ -37,4 +37,7 @@ print(a+int(b))
 x = 5
 y = 2.36
 print(x+int(y))
+
+Z = 334
+
 
