@@ -8,12 +8,12 @@ result3 = second / first
 print(result3)
 
 name = 'John'
-name2 = "John"
+name2 = "Elton John"
 print(name)
-print(name2)
 
 
 
+xl = 456
 a = 16
 a = 17
 a = 9
@@ -25,6 +25,8 @@ b = c + a
 b = 8
 print("b is: ", b)
 print("c is: ", c)
+a = xl + 12
+
 
 my_num = 5+5
 print("result is the: ", my_num)
